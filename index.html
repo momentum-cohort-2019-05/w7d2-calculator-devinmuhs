@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="main.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator-box">
+        <div class="first-row">
+            <div><input id="clear" value="C" type="button" onclick='newFunction()'></div>
+            <div class="num-field"><input id="input" type="text"></div>
+        </div>
+        <div class="second-row">
+                <div><input class="numbers" id="seven" value="7" type="button"></div>
+                <div><input class="numbers" id="eight" value="8" type="button"></div>
+                <div><input class="numbers" id="nine" value="9" type="button"></div>
+                <div><input class="numbers"  value="/" type="button"></div>
+        </div>
+        <div class="third-row">
+                <div><input class="numbers" id="four" value="4" type="button"></div>
+                <div><input class="numbers" id="five" value="5" type="button"></div>
+                <div><input class="numbers" id="six" value="6" type="button"></div>
+                <div><input class="numbers"  value="*" type="button"></div>
+        </div>
+        <div class="fourth-row">
+                <div><input class="numbers" id="one" value="1" type="button"></div>
+                <div><input class="numbers" id="two" value="2" type="button"></div>
+                <div><input class="numbers" id="three" value="3" type="button"></div>
+                <div><input class="numbers"  value="-" type="button"></div>
+        </div>
+        <div class="fifth-row">
+                <div><input class="numbers" id="zero" value="0" type="button"></div>
+                <div><input class="numbers" id="dot" value="." type="button"></div>
+                <div><input class="equals" id="equals" value="=" type="button" onclick='equals()'></div>
+                <div><input class="numbers"  value="+" type="button"></div>
+        </div>
+    </div>
+</body>
+</html>
